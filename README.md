@@ -5,5 +5,5 @@
 2. Once access is granted through dgGaP and eRA, proceed to GDC portal here:https://portal.gdc.cancer.gov/
 3. Type (for example: TCGA-LUAD) in the search box.
 4. For BAM downloads, select "Sequencing Reads" -> and next page -> "bam" in the left hand side panel. Select RNA-Seq or WGS or WXS according to your requirement.
-5. Download a "Manifest" file from the top right hand button. Attached is an exmaple of the manifest file
+5. Download a "Manifest" file from the top right hand button. Attached is an example of the manifest file
 6. To map UUIDs to TCGA barcodes from this manifest file, use the script manifest_to_TCGA_ID.R
