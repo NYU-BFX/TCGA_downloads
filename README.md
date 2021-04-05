@@ -1,5 +1,5 @@
 # TCGA_downloads
----How to download TCGA data from GDC portal------
+
 This is mostly applicable to controlled data access in GDC. Almost all kinds of data is accessible through GDC/TCGABiolinks/GenomicDataCommons etc patient specific HLA allele calls. Exome or RNA-seq data can be downloaded depending on your HLA-caller. arcasHLA is a preferred caller since it calls MHC Class 1 and Class 2 using RNA-Seq BAMs(https://github.com/RabadanLab/arcasHLA)
 
 
