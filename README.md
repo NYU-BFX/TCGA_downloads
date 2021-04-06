@@ -12,7 +12,7 @@ This is mostly applicable to controlled data access in GDC. Almost all kinds of 
 6. To map UUIDs to TCGA barcodes from this manifest file, use the script manifest_to_TCGA_ID.R
  
  
- Use gdc-client to download the BAMS:
+ Use gdc-client to download the BAMS. The user token is from the GDC web portal. Click under your username and download the token file:
  
  
         gdc-client   download   -t gdc-user-token.2021-04-02.txt  -m  manifest-example.txt 
