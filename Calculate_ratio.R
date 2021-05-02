@@ -15,7 +15,7 @@ colnames(x) =c("HLA", "allele","kras", "num")
 y=x%>% group_by(HLA, kras) %>% summarise(sum = sum(num))
 #Find the percentage
 y=y %>% mutate (percentage=sum/568*100)
-y %>% group_by(HLA) %>%  mutate (VV = first(is.numeric(percentage)) *100)
+#y %>% group_by(HLA) %>%  mutate (VV = first(is.numeric(percentage)) *100)
 
 y=y %>% group_by(HLA) %>% mutate (ratio=first(percentage)/last(percentage) *100)
 #y%>% filter(kras== "KRAS_WILD") %>% 
